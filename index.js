@@ -15,7 +15,6 @@ const io = new Server(server, {
     path: "/",
     httpOnly: false,
     secure: false,
-    expires: new Date("2025-06-21"),
     sameSite: true
   },
   cors: {
